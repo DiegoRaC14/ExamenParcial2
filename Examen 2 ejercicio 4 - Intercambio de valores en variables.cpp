@@ -4,8 +4,7 @@
 
 int main ()
 {	 
-	int v1,v2,v3,vextra,vtemp2;
-	 
+	int v1,v2,v3,vextra;
 	 
 	printf("Ingrese un valor para la variable 1: ");
 	scanf("%d",&v1);
