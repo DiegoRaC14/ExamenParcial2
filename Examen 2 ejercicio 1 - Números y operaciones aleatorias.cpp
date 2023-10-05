@@ -11,12 +11,10 @@ int main ()
 	int opc; //Operacion aleatoria
 	int operacion;
 	
-
-	
 	do 
 	{	
-		nA1=rand()%6;
-		nA2=rand()%6;
+		nA1=rand()%10;
+		nA2=rand()%10;
 		opc=rand()%6;
 		
 		switch(opc)
@@ -28,17 +26,17 @@ int main ()
 				
 			case 2:
 			operacion=nA1-nA2;
-			printf("%d  - %d  = %d \n",nA1,nA2,operacion);
+			printf("%d - %d  = %d \n",nA1,nA2,operacion);
 			break;
 			
 			case 3:
 			operacion=nA1*nA2;
-			printf("%d  * %d  = %d \n",nA1,nA2,operacion);
+			printf("%d * %d  = %d \n",nA1,nA2,operacion);
 			break;
 			
 			case 4:
 			operacion=nA1/nA2;
-			printf("%d  / %d  = %d \n",nA1,nA2,operacion);
+			printf("%d / %d  = %d \n",nA1,nA2,operacion);
 			break;
 				
 		}
