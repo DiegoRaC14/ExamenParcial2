@@ -1,4 +1,4 @@
-/* Programa que genera numeros y operaciones aleatorios */
+/* Programa que genera números y operaciones aleatorios */
 
 #include <stdio.h> 
 #include <stdlib.h>
